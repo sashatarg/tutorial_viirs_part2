@@ -7,10 +7,6 @@ import os
 # either (county, state, year) or (state, year)
 # if no year, will opportunistically find previous year
 
-data_folder = os.path.join(
-    os.path.dirname(os.path.realpath(__file__)), '..', 'data'
-)
-
 # dict of {state_name: state_code}, e.g. {'California': 'CA'}
 
 
